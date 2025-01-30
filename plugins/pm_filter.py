@@ -1552,7 +1552,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
             **locals()
         )
     else:
-        cap = f"<b>📂 ʜᴇʀᴇ ɪ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ sᴇᴀʀᴄʜ {search}\n<a href="https://t.me/+f5wP20a_ah44Mjdl">Another Group Join</a></b>"
+        cap = f"""<b>📂 ʜᴇʀᴇ ɪ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ sᴇᴀʀᴄʜ {search}\n<a href='https://t.me/+f5wP20a_ah44Mjdl'>Another Group Join</a></b>"""
 
     ads, ads_name, _ = await mdb.get_advirtisment()
     ads_text = ""
