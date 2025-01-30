@@ -1554,7 +1554,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
     else:
         #cap = f"""<b>📂 ʜᴇʀᴇ ɪ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ sᴇᴀʀᴄʜ {search}\n<a href='https://t.me/+f5wP20a_ah44Mjdl'>Another Group Join</a></b>"""
 	cap = f"<b>📂 ʜᴇʀᴇ ɪ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ sᴇᴀʀᴄʜ {search}</b>"
-	button = InlineKeyboardMarkup([[InlineKeyboardButton("Join Another Group", url="https://t.me/+f5wP20a_ah44Mjdl")]])
+	    button = InlineKeyboardMarkup([[InlineKeyboardButton("Join Another Group", url="https://t.me/+f5wP20a_ah44Mjdl")]])
 
 await message.reply_text(cap, reply_markup=button)
 
