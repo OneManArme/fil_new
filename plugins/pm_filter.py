@@ -1556,7 +1556,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
 	#cap = f"<b>📂 ʜᴇʀᴇ ɪ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ sᴇᴀʀᴄʜ {search}</b>"
 	    #button = InlineKeyboardMarkup([[InlineKeyboardButton("Join Another Group", url="https://t.me/+f5wP20a_ah44Mjdl")]])
 
-await message.reply_text(cap, reply_markup=button)
+#await message.reply_text(cap, reply_markup=button)
 
     ads, ads_name, _ = await mdb.get_advirtisment()
     ads_text = ""
