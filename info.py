@@ -43,9 +43,9 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link 
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/demoshort/63")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/demoshort/63")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/demoshort/63")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/demoshort/67")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/demoshort/67")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/demoshort/67")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "c5046fc2c519ed19a7f7d501dfc70b9c37a01614")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'runurl.in')
@@ -53,8 +53,8 @@ SHORTENER_API2 = environ.get("SHORTENER_API2", "c5046fc2c519ed19a7f7d501dfc70b9c
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'runurl.in')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "c5046fc2c519ed19a7f7d501dfc70b9c37a01614")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'runurl.in')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "28800"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "28800"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi", "marathi"]
